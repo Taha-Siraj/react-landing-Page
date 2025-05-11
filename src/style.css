@@ -2,12 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    overflow: ;
+}
 .BGlayer{
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(1px);
 }
 .bgleft{
-    background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(1px);
     transition: all 0.6s ease-in-out;
+    background: rgba(0, 0, 0, 0.5);
 }
+.video-top{
+    background: rgba(0, 0, 0, 0.7);
+  }

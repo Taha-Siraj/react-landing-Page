@@ -15,7 +15,7 @@ const Header = () => {
       <div>
         <img src="/images/logo.png" alt="Logo" />
       </div>
-      <div className="hidden lg:flex justify-between gap-x-4 items-center capitalize text-[20px] font-light list-none">
+      <div className="hidden lg:flex justify-between gap-x-4 items-center    uppercase font-semibold text-[12px] list-none">
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/home">About</Link></li>
         <li><Link to="/home">Service</Link></li>
@@ -23,7 +23,7 @@ const Header = () => {
         <li><Link to="/home">Feature</Link></li>
         <li><Link to="/home">Review</Link></li>
         <li><Link to="/home">Faq</Link></li>
-        <select className="cursor-pointer bg-transparent border-0 outline-0 py-1 px-3">
+        <select className="cursor-pointer bg-transparent border-0 outline-0 py-1 px-3 uppercase text-[12px]">
           <option value="" hidden>Pages</option>
           <option className="text-black">Generics</option>
           <option className="text-black">Element</option>
