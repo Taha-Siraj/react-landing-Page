@@ -7,4 +7,9 @@
   button{
     transition: all 0.3s ease-in-out;
   }
-  
+  .btncolor{
+    background: linear-gradient(135deg, #235EE7, #46D7F8);
+  }
+  .btncolor:hover{
+    background: transparent;
+  }

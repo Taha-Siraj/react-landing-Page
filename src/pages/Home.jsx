@@ -36,20 +36,20 @@ const Home = () => {
         <div className="flex flex-col items-center py-16 gap-y-4 text-center px-4">
           <p className="text-lg sm:text-2xl md:text-xl">Now you can feel the Heat</p>
           <h1 className="text-3xl sm:text-6xl font-extrabold">Smart New Future</h1>
-          <button className="rounded-3xl px-7 text-[15px] hover:bg-transparent hover:text-white hover:border border-yellow-50 text-black py-2 bg-white">
+          <button className="rounded-3xl px-7 text-[15px] hover:bg-transparent hover:text-white hover:border border-yellow-50 text-black py-2 bg-white font-semibold">
             BUY NOW
           </button>
         </div>
       </div>
 
       {/* About Section */}
-      <div className='min-h-screen lg:flex justify-center items-center gap-x-10 px-5 py-16'>
+      <div className='min-h-screen md:flex justify-between items-center gap-x-10 px-20 py-16'>
         <div className='lg:w-1/2 flex flex-col justify-center items-start gap-y-6'>
           <p className='text-xl font-thin text-blue-500'>Brand new app to blow your mind</p>
           <h1 className='text-2xl md:text-4xl font-extrabold'>We’ve made a life that will change you</h1>
           <p className='text-lg text-black'>We are here to listen from you deliver excellence</p>
-          <p className='text-sm text-slate-400 font-thin'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <button className='bg-[#222222] hover:bg-transparent border border-[#222222] hover:text-[#222222] font-thin text-white uppercase text-[15px] py-2 px-7 rounded-full'>
+          <p className='text-sm text-[#777777] font-thin'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <button className='bg-[#222222]  hover:bg-transparent border border-[#222222] hover:text-[#222222] font-semibold text-white uppercase text-[15px] py-2 px-7 rounded-full'>
             Get Started now
           </button>
         </div>
@@ -66,7 +66,7 @@ const Home = () => {
       <div className='min-h-screen flex justify-center items-center flex-col mt-10 px-5'>
         <div className="text-center mb-10">
           <h1 className='text-3xl md:text-4xl font-semibold capitalize'>Top Courses That are open for Students</h1>
-          <p className='mt-2 text-sm font-thin text-slate-400 capitalize'>Who are in extremely love with eco friendly system.</p>
+          <p className='mt-2 text-sm font-thin text-[#777777] capitalize'>Who are in extremely love with eco friendly system.</p>
         </div>
 
         <div className='flex flex-col md:flex-row justify-center items-center gap-10 w-full max-w-[1200px]'>
@@ -75,18 +75,18 @@ const Home = () => {
             <div className='flex flex-col gap-y-2'>
               <span className='text-blue-600 text-2xl'><FaRegPaperPlane /></span>
               <h1 className='text-2xl font-semibold capitalize'>High Performance</h1>
-              <p className='font-thin text-slate-400'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className='font-thin text-[#777777]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <div className='flex flex-col gap-y-2'>
               <span className='text-blue-600 text-2xl'><IoMdSettings /></span>
               <h1 className='text-2xl font-semibold capitalize'>Top Technology</h1>
-              <p className='font-thin text-slate-400'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className='font-thin text-[#777777]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
 
           {/* Image */}
           <div className='w-full md:w-[600px]'>
-            <img src="/images/c1.png" alt="Course" className='w-full h-auto object-contain' />
+            <img src="/images/c1.png" alt="Course" className='w-full h-auto inset-0' />
           </div>
 
           {/* Right Column */}
@@ -94,14 +94,26 @@ const Home = () => {
             <div className='flex flex-col gap-y-2'>
               <span className='text-blue-600 text-2xl'><BsFillBuildingsFill /></span>
               <h1 className='text-2xl font-semibold capitalize'>Certified Learning</h1>
-              <p className='font-thin text-slate-400'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className='font-thin text-[#777777]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <div className='flex flex-col gap-y-2'>
               <span className='text-blue-600 text-2xl'><FaBlenderPhone /></span>
               <h1 className='text-2xl font-semibold capitalize'>Hands-on Projects</h1>
-              <p className='font-thin text-slate-400'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className='font-thin text-[#777777]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className='h-screen gap-y-10 flex flex-col items-center md:flex-row  w-full py-10'>
+        <div className='w-full'>
+          <img src="./images/about-img.jpg" alt="" className='w-full' />
+        </div>
+        <div className='flex flex-col justify-center items-start gap-y-6 px-10 w-full'>
+          <h1 className='text-2xl capitalize font-semibold' >Globally Connected by Large Network</h1>
+          <p className='text-[#777777]  font-semibold'>We are here to listen from you deliver exellence</p>
+          <p className='text-[#939393] font-thin text-start'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+          <button className='btncolor uppercase rounded-full px-4 py-1 font-semibold hover:bg-transparent text-white hover:text-[#235EE7] active:scale-90 hover:border border-[#235EE7]'> Get details</button>
         </div>
       </div>
     </div>
