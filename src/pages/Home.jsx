@@ -8,7 +8,12 @@ import { FaRegPaperPlane } from "react-icons/fa";
 import { IoMdSettings } from "react-icons/io";
 import { FaBlenderPhone } from "react-icons/fa6";
 import { BsFillBuildingsFill } from "react-icons/bs";
-
+import { CiUser } from "react-icons/ci";
+import { RiProfileLine } from "react-icons/ri";
+import { TfiSupport } from "react-icons/tfi";
+import { FaRocket } from "react-icons/fa6";
+import { IoDiamondOutline } from "react-icons/io5";
+import { FaRegCommentDots } from "react-icons/fa";
 const Home = () => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -114,6 +119,41 @@ const Home = () => {
           <p className='text-[#777777]  font-semibold'>We are here to listen from you deliver exellence</p>
           <p className='text-[#939393] font-thin text-start'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
           <button className='btncolor uppercase rounded-full px-4 py-1 font-semibold hover:bg-transparent text-white hover:text-[#235EE7] active:scale-90 hover:border border-[#235EE7]'> Get details</button>
+        </div>
+      </div>
+
+      <div className='h-screen'>
+        <div className='flex flex-col justify-center items-center gap-y-5'>
+          <h1 className='text-3xl font-extrabold capitalize' >Some Features that Made us Unique</h1>
+          <p className='text-[15px] text-[#777777] capitalize'>Who are in extremely love with eco friendly system.</p>
+        </div>
+        <div className='flex flex-col justify-between items-center md:flex-row py-10 px-20 flex-wrap gap-y-6'>
+          <div className='boxHover cursor-pointer h-[228px] w-[389px] py-6 flex justify-start items-start flex-col  px-7 gap-y-6 bg-[#F9F9FF] ' >
+            <h1 className='flex gap-x-3 text-xl font-extrabold '><span className='text-3xl'><CiUser/> </span>   Expert Technicians</h1>
+            <p className='font-normal text-[#777777]' >Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+          </div>
+          <div className='boxHover cursor-pointer h-[228px] w-[389px] py-6 flex justify-start items-start flex-col  px-7 gap-y-6 bg-[#F9F9FF] ' >
+            <h1 className='flex gap-x-3 text-xl font-extrabold '><span className='text-3xl'><RiProfileLine/> </span> Professional Service</h1>
+            <p className='font-normal text-[#777777]' >Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+          </div>
+          <div className='boxHover cursor-pointer h-[228px] w-[389px] py-6 flex justify-start items-start flex-col  px-7 gap-y-6 bg-[#F9F9FF] ' >
+            <h1 className='flex gap-x-3 text-xl font-extrabold '><span className='text-3xl'><TfiSupport/> </span>   Great Support</h1>
+            <p className='font-normal text-[#777777]' >Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+          </div>
+          <div className='boxHover cursor-pointer h-[228px] w-[389px] py-6 flex justify-start items-start flex-col  px-7 gap-y-6 bg-[#F9F9FF] ' >
+            <h1 className='flex gap-x-3 text-xl font-extrabold '><span className='text-3xl'><FaRocket/> </span>Technical Skills</h1>
+            <p className='font-normal text-[#777777]' >Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+          </div>
+          <div className='boxHover cursor-pointer h-[228px] w-[389px] py-6 flex justify-start items-start flex-col  px-7 gap-y-6 bg-[#F9F9FF] ' >
+            <h1 className='flex gap-x-3 text-xl font-extrabold '><span className='text-3xl'><IoDiamondOutline/> </span>Highly Recomended</h1>
+            <p className='font-normal text-[#777777]' >Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+          </div>
+          <div className='boxHover cursor-pointer h-[228px] w-[389px] py-6 flex justify-start items-start flex-col  px-7 gap-y-6 bg-[#F9F9FF] ' >
+            <h1 className='flex gap-x-3 text-xl font-extrabold '><span className='text-3xl'><FaRegCommentDots/> </span>Positive Reviews</h1>
+            <p className='font-normal text-[#777777]' >Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+          </div>
+          
+         
         </div>
       </div>
     </div>
